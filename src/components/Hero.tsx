@@ -8,17 +8,17 @@ const Hero: React.FC = () => {
 
   const slides = [
     {
-      image: "https://images.unsplash.com/photo-1542385151-efd9000785a0?q=80&w=2070&auto=format&fit=crop",
+      image: "/images/offshore-platform.jpg",
       subtitle: "Welcome to PetroventEPC",
       quote: "Forging the future of global energy."
     },
     {
-      image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=2070&auto=format&fit=crop",
+      image: "/images/offshore-wind.jpg",
       subtitle: "Excellence in Wind Construction",
       quote: "Harnessing the power of nature."
     },
     {
-      image: "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?q=80&w=2070&auto=format&fit=crop",
+      image: "/images/industrial-power.jpg",
       subtitle: "Offshore Engineering Leaders",
       quote: "Building strength through deepwater innovation."
     }
@@ -124,7 +124,7 @@ const Hero: React.FC = () => {
               {/* Main Image */}
               <div className="overflow-hidden rounded-sm shadow-2xl relative h-[500px] w-full group border border-white/5">
                 <img 
-                  src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=2069&auto=format&fit=crop" 
+                  src="/images/industrial-power.jpg" 
                   alt="Industrial Worker" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 />

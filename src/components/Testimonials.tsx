@@ -8,7 +8,7 @@ const Testimonials: React.FC = () => {
         {/* Left Image */}
         <div className="h-[400px] lg:h-auto relative min-h-[500px] animate-on-scroll fade-right">
           <img 
-            src="https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=1997&auto=format&fit=crop" 
+            src="/images/leader-offshore.jpg" 
             alt="Client Meeting" 
             className="w-full h-full object-cover"
           />
@@ -22,7 +22,7 @@ const Testimonials: React.FC = () => {
              </p>
              <div className="flex items-center gap-4">
                <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-brand-yellow">
-                 <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop" alt="User" />
+                 <img src="/images/leader-engineer.jpg" alt="Daniel Hoffmann" />
                </div>
                <div>
                  <h4 className="text-white font-bold font-heading uppercase">Daniel Hoffmann</h4>

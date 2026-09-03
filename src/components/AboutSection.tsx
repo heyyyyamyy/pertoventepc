@@ -44,7 +44,7 @@ const AboutSection: React.FC = () => {
             <div className="absolute -top-4 -left-4 w-24 h-24 border-t-4 border-l-4 border-brand-yellow z-10"></div>
             <div className="relative overflow-hidden rounded-sm group">
               <img 
-                src="https://images.unsplash.com/photo-1542385151-efd9000785a0?q=80&w=2070&auto=format&fit=crop" 
+                src="/images/offshore-platform.jpg" 
                 alt="Offshore Construction" 
                 className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-110"
               />

@@ -10,7 +10,7 @@ const About: React.FC = () => {
       <section className="relative py-24 bg-brand-dark overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1542385151-efd9000785a0?q=80&w=2070&auto=format&fit=crop" 
+            src="/images/offshore-platform.jpg" 
             alt="About Background" 
             className="w-full h-full object-cover opacity-20 animate-on-scroll zoom-in duration-1000"
           />

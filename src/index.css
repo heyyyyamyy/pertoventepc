@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@keyframes fade-in-up {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@theme {
+  --color-brand-yellow: #FF5A00; /* Changed to vibrant orange while keeping class name to avoid breaking styles */
+  --color-brand-dark: #011222; /* Deep navy blue */
+  --color-brand-gray: #0a1d30; /* Lighter navy blue for cards */
+  --font-sans: 'Inter', sans-serif;
+  --font-heading: 'Exo 2', sans-serif;
+  --animate-fade-in-up: fade-in-up 0.8s ease-out forwards;
+}
+
+@utility bg-hero-pattern {
+  background-image: url('/images/offshore-platform.jpg');
+}
+
+@utility bg-cta-pattern {
+  background-image: url('/images/offshore-wind.jpg');
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #011222;
+}
+::-webkit-scrollbar-thumb {
+  background: #0a1d30;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF5A00;
+}
+
+/* Scroll Animations Global Styles */
+.animate-on-scroll {
+  opacity: 0;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
+}
+
+/* Base States */
+.fade-up { transform: translateY(30px); }
+.fade-down { transform: translateY(-30px); }
+.fade-left { transform: translateX(-30px); }
+.fade-right { transform: translateX(30px); }
+.zoom-in { transform: scale(0.95); }
+
+/* Active State (Triggered by JS) */
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+/* Stagger Delays */
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }
+.delay-400 { transition-delay: 400ms; }
+.delay-500 { transition-delay: 500ms; }
+.delay-600 { transition-delay: 600ms; }
+.delay-1000 { transition-delay: 1000ms; }

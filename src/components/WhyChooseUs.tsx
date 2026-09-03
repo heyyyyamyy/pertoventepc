@@ -37,7 +37,7 @@ const WhyChooseUs: React.FC = () => {
         {/* Center Image */}
         <div className="h-[500px] relative overflow-hidden rounded-sm border border-white/10 group animate-on-scroll zoom-in delay-200">
           <img 
-            src="https://images.unsplash.com/photo-1542385151-efd9000785a0?q=80&w=1932&auto=format&fit=crop" 
+            src="/images/leader-safety.jpg" 
             alt="Offshore Worker" 
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           />

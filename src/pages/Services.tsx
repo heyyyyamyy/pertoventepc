@@ -13,37 +13,37 @@ const Services: React.FC = () => {
       icon: <Droplets size={32} />,
       title: "Petroleum Projects",
       desc: "Comprehensive EPC services for oil refineries, petrochemical plants, and pipeline networks globally.",
-      image: "https://images.unsplash.com/photo-1542385151-efd9000785a0?q=80&w=2070&auto=format&fit=crop"
+      image: "/images/offshore-platform.jpg"
     },
     {
       icon: <Wind size={32} />,
       title: "Wind Construction",
       desc: "Specialized in offshore and onshore wind farm development, turbine erection, and substation build.",
-      image: "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?q=80&w=2070&auto=format&fit=crop"
+      image: "/images/offshore-wind.jpg"
     },
     {
       icon: <Zap size={32} />,
       title: "Power Energy",
       desc: "Delivering thermal, nuclear, and hydroelectric power generation plants with high efficiency.",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=2070&auto=format&fit=crop"
+      image: "/images/industrial-power.jpg"
     },
     {
       icon: <Anchor size={32} />,
       title: "Offshore Projects",
       desc: "Expertise in deepwater platforms, FPSO conversions, and subsea infrastructure installations.",
-      image: "https://images.unsplash.com/photo-1617116467384-5f80b987515d?q=80&w=2070&auto=format&fit=crop"
+      image: "/images/offshore-platform.jpg"
     },
     {
       icon: <HardHat size={32} />,
       title: "Civil Infrastructure",
       desc: "Large-scale civil engineering for ports, bridges, heavy equipment foundries, and highways.",
-      image: "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?q=80&w=2070&auto=format&fit=crop"
+      image: "/images/civil-infrastructure.jpg"
     },
     {
       icon: <Factory size={32} />,
       title: "Industrial Manufacturing",
       desc: "Design and construction of complex manufacturing facilities, assembly lines, and smelting plants.",
-      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070&auto=format&fit=crop"
+      image: "/images/industrial-power.jpg"
     }
   ];
 
@@ -69,7 +69,7 @@ const Services: React.FC = () => {
       <section className="relative py-24 bg-brand-dark overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop" 
+            src="/images/industrial-power.jpg" 
             alt="Services Background" 
             className="w-full h-full object-cover opacity-20"
           />

@@ -8,21 +8,21 @@ const Blog: React.FC = () => {
       date: "Oct 12, 2025",
       author: "petrovent_admin",
       category: "Offshore",
-      image: "https://images.unsplash.com/photo-1542385151-efd9000785a0?q=80&w=2070&auto=format&fit=crop"
+      image: "/images/offshore-platform.jpg"
     },
     {
       title: "Sustainable Practices in Wind Farm Construction",
       date: "Nov 04, 2025",
       author: "petrovent_admin",
       category: "Renewable Energy",
-      image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=2070&auto=format&fit=crop"
+      image: "/images/offshore-wind.jpg"
     },
     {
       title: "Quality Control in Global Power Plants",
       date: "Dec 24, 2025",
       author: "petrovent_admin",
       category: "Power Generation",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=2070&auto=format&fit=crop"
+      image: "/images/industrial-power.jpg"
     }
   ];
 

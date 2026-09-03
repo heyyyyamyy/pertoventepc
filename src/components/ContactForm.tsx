@@ -7,7 +7,7 @@ const ContactForm: React.FC = () => {
       {/* Background Image Half */}
       <div className="absolute top-0 right-0 w-full lg:w-1/2 h-full z-0 animate-on-scroll fade-left duration-1000">
          <img
-            src="https://images.unsplash.com/photo-1542385151-efd9000785a0?q=80&w=2069&auto=format&fit=crop"
+            src="/images/offshore-platform.jpg"
             alt="Offshore Background"
             className="w-full h-full object-cover opacity-20 lg:opacity-40"
          />

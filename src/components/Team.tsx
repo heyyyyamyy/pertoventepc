@@ -3,9 +3,9 @@ import { Facebook, Linkedin, Twitter } from 'lucide-react';
 
 const Team: React.FC = () => {
   const team = [
-    { name: "Arjun Reddy", role: "Global Director", img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop" },
-    { name: "Sarah Jenkins", role: "Head of Offshore Projects", img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop" },
-    { name: "Rahul Sharma", role: "Chief Engineer (India)", img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000&auto=format&fit=crop" },
+    { name: "Arjun Reddy", role: "Global Director", img: "/images/leader-engineer.jpg" },
+    { name: "Sarah Jenkins", role: "Head of Offshore Projects", img: "/images/leader-offshore.jpg" },
+    { name: "Rahul Sharma", role: "Chief Engineer (India)", img: "/images/leader-safety.jpg" },
   ];
 
   return (

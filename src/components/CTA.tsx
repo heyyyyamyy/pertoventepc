@@ -18,9 +18,9 @@ const CTA: React.FC = () => {
             {/* Gallery Strip */}
             <div className="flex gap-4 mt-12">
                {[
-                 "https://images.unsplash.com/photo-1542385151-efd9000785a0?q=80&w=200&h=150&auto=format&fit=crop",
-                 "https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=200&h=150&auto=format&fit=crop",
-                 "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=200&h=150&auto=format&fit=crop"
+                 "/images/offshore-platform.jpg",
+                 "/images/offshore-wind.jpg",
+                 "/images/industrial-power.jpg"
                ].map((src, i) => (
                  <div key={i} className={`w-32 h-24 border-2 border-brand-dark/20 rounded-sm overflow-hidden animate-on-scroll zoom-in delay-${(i + 1) * 200}`}>
                    <img src={src} alt="Gallery" className="w-full h-full object-cover" />
